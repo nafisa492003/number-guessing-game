@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1410px;
+  margin: 0 auto;
+}
+body {
+  background-image: url(images/n1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  color: #0000ff;
+  margin-top: 40px;
+  text-transform: capitalize;
+}
+.parent {
+  background-color: rgba(171, 237, 215, 50%);
+  border-radius: 25px;
+  width: 700px;
+}
+h2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: capitalize;
+  color: rgb(255, 145, 0);
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+input {
+  display: inline-block;
+  width: 322px;
+  height: 35px;
+  margin-left: 180px;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 3px solid green;
+  background-color: transparent;
+}
+.btnone{
+  border: 3px solid purple;
+  text-transform: capitalize;
+  font-size: larger;
+  width: 150px;
+  background-color: rgba(222, 161, 222, 40%);
+  margin-left: 265px;
+  margin-bottom: 30px;
+}
+.btntwo{
+    border: 3px solid purple;
+    text-transform: capitalize;
+    font-size: larger;
+    width: 150px;
+    background-color: rgba(222, 161, 222, 40%);
+    margin-left: 265px;
+    margin-bottom: 30px;
+  }
+.player_two {
+  display: none;
+}
+/* =================== responsive ======================== */
+@media (min-width: 320px) and (max-width: 575px) {
+  .parent {
+    width: auto;
+  }
+  input {
+    width: auto;
+
+    margin-left: 67px;
+  }
+  .btnone {
+    margin-left: 82px;
+  }
+  .btntwo{
+      margin-left: 82px;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .parent {
+    width: auto;
+  }
+  input {
+    margin-left: 108px;
+  }
+  .btnone {
+    margin-left: 184px;
+  }
+  .btntwo{
+    margin-left: 184px;
+  }
+}
